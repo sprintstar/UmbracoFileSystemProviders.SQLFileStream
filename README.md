@@ -35,3 +35,4 @@ Its very rough and ready, and needs work and testing to make it better.  The IFi
 
 * It breaks ImageProcessor in that you can no longer put widths/heights on the resulting image urls for resizing
 * The umbraco CMS says the image has zero size, not sure why
+* This code is designed to be included in the main umbraco project, for easy access to the database connection string, but would be much better if it was a separate project.
